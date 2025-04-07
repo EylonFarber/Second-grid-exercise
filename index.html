@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="min-h-screen w-screen bg-lime-100 flex flex-col justify-center items-center">
+    <header
+      class="h-1/4 bg-lime-100 text-center flex flex-col justify-center items-center"
+    >
+      <h2>Reliable, efficient delivery</h2>
+      <h1>Powered by Technology</h1>
+      <h3>
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </h3>
+    </header>
+
+    <main
+      class="w-screen h-3/4 max-h-fit gap-6 p-6 flex flex-col items-center md:grid md:grid-cols-3 md:grid-rows-4"
+    >
+      <section
+        class="bg-green-200 supervisor w-full max-w-[624px] aspect-8/5 shadow-xl/20 md:row-span-2 md:row-start-2"
+      ></section>
+
+      <section
+        class="bg-green-300 teambuilder w-full max-w-[624px] aspect-8/5 shadow-xl/20 md:row-span-2 md:col-start-2"
+      ></section>
+
+      <section
+        class="bg-green-400 karma w-full max-w-[624px] aspect-8/5 shadow-xl/20 md:row-span-2 md:col-start-2"
+      ></section>
+      <!-- Why does this dissapear when i add max-w -->
+      <section
+        class="bg-green-500 calculator w-full max-w-[624px] aspect-8/5 shadow-xl/20 md:row-span-2 md:row-start-2 md:col-start-3"
+      ></section>
+    </main>
+  </body>
+</html>
